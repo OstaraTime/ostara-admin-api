@@ -1,0 +1,12 @@
+ostara2/api/admin/model/Person.class
+ostara2/api/admin/repository/DeptRepository.class
+ostara2/api/admin/App.class
+ostara2/api/admin/config/SecurityConfig.class
+ostara2/api/admin/model/Dept.class
+ostara2/api/admin/repository/ClientRepository.class
+ostara2/api/admin/controller/ClientController.class
+ostara2/api/admin/model/Client.class
+ostara2/api/admin/repository/PersonRepository.class
+ostara2/api/admin/controller/PersonController.class
+ostara2/api/admin/Ostara2ApiAdminApplication.class
+ostara2/api/admin/controller/DeptController.class

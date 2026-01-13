@@ -1,0 +1,12 @@
+/home/schtromar/Documents/faks/mag/RSO/ostara-admin-api/src/main/java/ostara2/api/admin/model/Dept.java
+/home/schtromar/Documents/faks/mag/RSO/ostara-admin-api/src/main/java/ostara2/api/admin/repository/ClientRepository.java
+/home/schtromar/Documents/faks/mag/RSO/ostara-admin-api/src/main/java/ostara2/api/admin/controller/ClientController.java
+/home/schtromar/Documents/faks/mag/RSO/ostara-admin-api/src/main/java/ostara2/api/admin/repository/DeptRepository.java
+/home/schtromar/Documents/faks/mag/RSO/ostara-admin-api/src/main/java/ostara2/api/admin/controller/DeptController.java
+/home/schtromar/Documents/faks/mag/RSO/ostara-admin-api/src/main/java/ostara2/api/admin/model/Client.java
+/home/schtromar/Documents/faks/mag/RSO/ostara-admin-api/src/main/java/ostara2/api/admin/App.java
+/home/schtromar/Documents/faks/mag/RSO/ostara-admin-api/src/main/java/ostara2/api/admin/repository/PersonRepository.java
+/home/schtromar/Documents/faks/mag/RSO/ostara-admin-api/src/main/java/ostara2/api/admin/controller/PersonController.java
+/home/schtromar/Documents/faks/mag/RSO/ostara-admin-api/src/main/java/ostara2/api/admin/Ostara2ApiAdminApplication.java
+/home/schtromar/Documents/faks/mag/RSO/ostara-admin-api/src/main/java/ostara2/api/admin/model/Person.java
+/home/schtromar/Documents/faks/mag/RSO/ostara-admin-api/src/main/java/ostara2/api/admin/config/SecurityConfig.java
