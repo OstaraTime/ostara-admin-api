@@ -7,7 +7,10 @@ import ostara2.api.admin.repository.DeptRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import io.swagger.v3.oas.annotations.tags.Tag;
+import io.swagger.v3.oas.annotations.Operation;
 
+@Tag(name = "Persons", description = "Person management")
 @RestController
 @RequestMapping("/api/persons")
 public class PersonController {
@@ -18,13 +21,13 @@ public class PersonController {
     @Autowired
     private DeptRepository deptRepository;
 
-    // Existing GET endpoint
+    @Operation(summary = "Get all persons")
     @GetMapping
     public ResponseEntity<?> getAllPersons() {
         return ResponseEntity.ok(personRepository.findAll());
     }
 
-    // NEW: Add a new person
+    @Operation(summary = "Add a new person to database")
     @PostMapping
     public ResponseEntity<?> addPerson(@RequestBody Person person) {
         // Validate department exists

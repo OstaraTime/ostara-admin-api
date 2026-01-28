@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
+import io.swagger.v3.oas.annotations.Operation;
+
+@Tag(name = "Departments", description = "Department management")
 @RestController
 @RequestMapping("/api/depts")
 public class DeptController {
@@ -19,20 +23,20 @@ public class DeptController {
         this.deptRepository = deptRepository;
     }
 
-    // GET all departments
+    @Operation(summary = "Get all departments")
     @GetMapping
     public List<Dept> getAllDepts() {
         return deptRepository.findAll();
     }
 
-    // POST a new department
+    @Operation(summary = "Create a new department")
     @PostMapping
     public ResponseEntity<Dept> createDept(@RequestBody Dept dept) {
         Dept savedDept = deptRepository.save(dept);
         return ResponseEntity.ok(savedDept);
     }
 
-    // GET a single department by ID
+    @Operation(summary = "Get a department")
     @GetMapping("/{id}")
     public ResponseEntity<Dept> getDeptById(@PathVariable Integer id) {
         return deptRepository.findById(id)
