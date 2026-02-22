@@ -101,6 +101,13 @@
             <version>2.5.0</version>
         </dependency>
 
+        <!-- health checks -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+
     </dependencies>
 
     <build>
